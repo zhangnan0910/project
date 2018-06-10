@@ -1,0 +1,69 @@
+{
+    "code":1,
+    "data":[
+        {
+            "id": 1,
+            "name": "组织权限管理",
+            "type": "cmd_admin",
+            "menus": [
+                {
+                    "id": 1,
+                    "name": "员工账号管理",
+                    "type": "Employees_admin"
+                },
+                {
+                    "id": 2,
+                    "name": "菜单管理",
+                    "type": "Menu_admin"
+                },
+                {
+                    "id": 3,
+                    "name": "授权管理",
+                    "type": "Authorized_admin"
+                },
+                {
+                    "id": 4,
+                    "name": "工作组管理",
+                    "type": "Team_admin"
+                },
+                {
+                    "id": 4,
+                    "name": "用户管理",
+                    "type": "User_admin"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "我的工作",
+            "type": "my_work",
+            "menus": [
+                {
+                    "id": 1,
+                    "name": "员工账号管理",
+                    "type": "Employees_admin"
+                },
+                {
+                    "id": 2,
+                    "name": "菜单管理",
+                    "type": "Menu_admin"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "客户管理",
+            "type": "Customer_admin"
+        },
+        {
+            "id": 4,
+            "name": "计费账务",
+            "type": "Billing_accounts"
+        },
+        {
+            "id": 5,
+            "name": "集客业务",
+            "type": "Gues_usiness"
+        }
+    ]
+}

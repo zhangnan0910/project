@@ -1,0 +1,69 @@
+{
+    "tree": [
+        {
+            "label": "计费账务",
+            "children": [
+                {
+                    "label": "组织权限管理",
+                    "children": [
+                        {
+                            "label": "员工账号管理"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "客户管理",
+            "children": [
+                {
+                    "label": "组织权限管理",
+                    "children": [
+                        {
+                            "label": "菜单管理"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "客户管理",
+            "children": [
+                {
+                    "label": "组织权限管理",
+                    "children": [
+                        {
+                            "label": "菜单管理"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "客户管理",
+            "children": [
+                {
+                    "label": "组织权限管理",
+                    "children": [
+                        {
+                            "label": "角色管理"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "计费账务",
+            "children": [
+                {
+                    "label": "组织权限管理",
+                    "children": [
+                        {
+                            "label": "工作组菜单"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
