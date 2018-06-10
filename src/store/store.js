@@ -33,19 +33,16 @@ let  store = new Vuex.Store({
         updateTree(state, payload){
             state.tree = payload
         },
+        // 保存更换数据位置
         Preservation(state, payload){
             let ind;
-            let data;
             state.menu.map((res,index)=>{
                 if (res.name === payload.user){
                     data = res
                     ind = index
                 }
             })
-            
-           
-            
-          
+            state.menu.splice(ind, 1, ...state.menu.splice((payload.number - 1), 1, state.menu[ind]))
         }
     },
     actions:{ // 通过dispatch来触发一个action
