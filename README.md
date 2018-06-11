@@ -34,41 +34,42 @@ npm run build --report
 #### 4. 路由搭建
 ```
     new Router({
-  routes: [
-    {
-      path: '/',
-      redirect: '/login'
-    },
-    {
-      path: '/login',
-      name: 'login',
-      component: Login
-    },
-    {
-      path: '/home',
-      name: 'home',
-      component: Home,
-      children:[
-        {
-          path:"Employees_admin",
-          name:"Employees_admin",
-          component: Employees_admin
-        },{
-          path: "Menu_admin",
-          name: "Menu_admin",
-          component: Menu_admin,
-          // tree 路由传参
-          children:[
+        routes: [
             {
-              path: "child/:id",
-              name: "child",
-              component: Child_admin
+                path: '/',
+                redirect: '/login'
+            },
+            {
+                path: '/login',
+                name: 'login',
+                component: Login
+            },
+            {
+                path: '/home',
+                name: 'home',
+                component: Home,
+                children:[
+                    {
+                    path:"Employees_admin",
+                    name:"Employees_admin",
+                    component: Employees_admin
+                    },{
+                    path: "Menu_admin",
+                    name: "Menu_admin",
+                    component: Menu_admin,
+                    // tree 路由传参
+                    children:[
+                        {
+                        path: "child/:id",
+                        name: "child",
+                        component: Child_admin
+                        }
+                    ]
+                    }
+                ]
             }
-          ]
-        }
-      ]
+        ]
     }
-  ]
 ```
 #### 5. 代表性
 ```
